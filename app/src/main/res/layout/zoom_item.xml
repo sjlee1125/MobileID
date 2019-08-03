@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+    <LinearLayout
+        android:background="@drawable/passport_main"
+        android:layout_width="1022px"
+        android:layout_height="1370px">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="733px"
+            android:layout_width="match_parent"
+            android:layout_height="637px">
+            <LinearLayout
+                android:layout_width="366px"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/p_face"
+                    android:layout_marginTop="127px"
+                    android:layout_marginLeft="91px"
+                    android:background="@drawable/passport"
+                    android:layout_width="227px"
+                    android:layout_height="292px" />
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginTop="10dp"
+                    android:text="TextView"
+                    android:textSize="7sp" />
+
+                <TextView
+                    android:id="@+id/contry_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="53dp"
+                    android:layout_marginTop="10dp"
+                    android:text="TextView"
+                    android:textSize="7sp" />
+
+                <TextView
+                    android:id="@+id/passport_n"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="113dp"
+                    android:layout_marginTop="10dp"
+                    android:text="TextView"
+                    android:textSize="7sp" />
+
+                <TextView
+                    android:id="@+id/record_n"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="113dp"
+                    android:layout_marginTop="91dp"
+                    android:text="TextView"
+                    android:textSize="7sp" />
+
+                <TextView
+                    android:id="@+id/authority"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="113dp"
+                    android:layout_marginTop="110dp"
+                    android:text="TextView"
+                    android:textSize="7sp" />
+
+                <TextView
+                    android:id="@+id/surname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginTop="28dp"
+                    android:text="TextView"
+                    android:textSize="7sp" />
+
+                <TextView
+                    android:id="@+id/given_n"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginTop="50dp"
+                    android:text="TextView"
+                    android:textSize="7sp" />
+
+                <TextView
+                    android:id="@+id/nationality"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginTop="73dp"
+                    android:text="TextView"
+                    android:textSize="7sp" />
+
+                <TextView
+                    android:id="@+id/birth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginTop="92dp"
+                    android:text="TextView"
+                    android:textSize="7sp" />
+
+                <TextView
+                    android:id="@+id/sex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginTop="111dp"
+                    android:text="TextView"
+                    android:textSize="7sp" />
+
+                <TextView
+                    android:id="@+id/issue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginTop="129dp"
+                    android:text="TextView"
+                    android:textSize="7sp" />
+
+                <TextView
+                    android:id="@+id/expiry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginTop="145dp"
+                    android:text="TextView"
+                    android:textSize="7sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+

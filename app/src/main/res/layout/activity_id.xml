@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        tools:context=".IdActivity">
+        <LinearLayout
+            android:layout_width="1434px"
+            android:layout_height="920px"
+            android:background="@drawable/id1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="682px">
+                <LinearLayout
+                    android:gravity="center_horizontal"
+                    android:paddingTop="253px"
+                    android:orientation="vertical"
+                    android:layout_width="880px"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:textSize="23sp"
+                        android:text="이승준(이승준)"
+                        android:id="@+id/id_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:textColor="#000000"
+                        android:layout_marginTop="40px"
+                        android:textSize="17sp"
+                        android:letterSpacing="0.1"
+                        android:text="931125-1410115"
+                        android:id="@+id/id_ssn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:textColor="#000000"
+                        android:layout_marginTop="50px"
+                        android:textSize="17sp"
+                        android:text="충청남도 홍성군 홍성읍 오관리 552-6"
+                        android:id="@+id/id_address"
+                        android:layout_width="550px"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="554px"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/id_face"
+                        android:layout_marginTop="57px"
+                        android:background="@drawable/passport"
+                        android:layout_width="486px"
+                        android:layout_height="625px" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="238px">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:gravity="right"
+                    android:paddingTop="40px"
+                    android:layout_width="1021px"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_marginRight="106px"
+                        android:textColor="#000000"
+                        android:textSize="17sp"
+                        android:text="2011.3.10."
+                        android:id="@+id/id_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_marginRight="40px"
+                        android:textColor="#000000"
+                        android:textSize="21sp"
+                        android:text="부산광역시 해운대구청장"
+                        android:id="@+id/id_master"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:paddingTop="23px"
+                    android:layout_width="413px"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/id_stamp"
+                        android:background="@drawable/red"
+                        android:layout_width="175px"
+                        android:layout_height="175px" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</layout>

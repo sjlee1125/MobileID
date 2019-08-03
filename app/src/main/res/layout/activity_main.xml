@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".FingerPrintActivity">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="541px">
+            <ImageView
+                android:background="@drawable/logo_black"
+                android:layout_width="502px"
+                android:layout_height="295px" />
+        </LinearLayout>
+        <View
+            android:layout_gravity="center_horizontal"
+            android:background="#CECECE"
+            android:layout_width="889px"
+            android:layout_height="1dp"/>
+
+        <android.support.v4.view.ViewPager
+
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="1017px"></android.support.v4.view.ViewPager>
+
+        <com.pm10.library.CircleIndicator
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/circle_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:p_gap="6dp"
+            app:p_radius="3dp"
+            app:p_strokeWidth="1dp"
+            app:p_defaultColor="#E4E4E4"
+            app:p_selectedColor="@color/black"
+            app:p_strokeColor="@color/white"/>
+        <Button
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_marginTop="150px"
+            android:shadowColor="@color/white"
+            android:background="@drawable/ripple"
+            android:layout_gravity="center_horizontal"
+            android:text="비밀번호"
+            android:layout_width="wrap_content"
+            android:layout_height="80px" />
+        <TextView
+            android:id="@+id/finger_log"
+            android:textColor="@color/black"
+            android:layout_marginTop="40px"
+            android:layout_gravity="center_horizontal"
+            android:text="지문으로 인증하세요"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</layout>
