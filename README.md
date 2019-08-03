@@ -17,7 +17,10 @@ Mobile ID는 아날로그 신분증을 디지털로 옮겨온 어플리케이션
 ## Hyperledger Fabric 네트워크 구성 및 구축
 
 * Hyperledger Fabric 네트워크는 Google Cloud Platform 의 VM인스턴스 기능을 이용하여 5대를 구축하였고
-   [[Multi-Host-Fabric-Network](https://github.com/sjlee1125/Multi-Host-Fabric-Network)]에 정리하였다.
+
+  server orchestration을 위해 Docker Swarm을 사용하였다. 
+  [[Multi-Host-Fabric-Network](https://github.com/sjlee1125/Multi-Host-Fabric-Network)]에 정리.
+
 * Client SDK는 Node js 를 사용하였으며 Android에서 HTTP 통신으로 요청을 하면 SDK가 개인정보를 수신한다.
-  [[hfc-nodejs](https://github.com/sjlee1125/hfc-nodejs)]에 정리하였다.
+  [[hfc-nodejs](https://github.com/sjlee1125/hfc-nodejs)]에 정리.
 
